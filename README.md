@@ -1,4 +1,4 @@
-# Aoc
+# Advent of Code 2025
 
 ## Configuration
 
@@ -8,9 +8,22 @@
 
 ## Mix Tasks
 
+### `mix test --only answer`
+
+Run all real input based tests for part 1 and part 2.
+
 ### `mix gen.day [n]`
 
 Generate a starting module and download your input for the day.
+
+### `mix inputs.get`
+
+Since inputs should not be shared in a public repository, this allows
+downloading all missing inputs for existing solutions.
+
+Keep in mind that all "answer" tests are based on my own inputs and will likely
+fail for others. However, you can look at the "left" side of the failed
+assertions to get answer for your own inputs.
 
 ## Authentication
 
